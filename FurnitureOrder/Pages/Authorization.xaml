@@ -1,0 +1,17 @@
+﻿<Page x:Class="FurnitureOrder.Pages.Authorization"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FurnitureOrder.Pages"
+      mc:Ignorable="d" 
+     d:DesignWidth="1472.373"
+      Title="Authorization">
+
+    <Grid Height="585" Background="Wheat">
+        <Button  Content="Sign in" FontSize="20" HorizontalAlignment="Left" Margin="678,167,0,0" VerticalAlignment="Top" Width="150"   Click="LoginPageClick"/>
+        <Button  Content="Sign on" FontSize="20" HorizontalAlignment="Left" Margin="678,239,0,0" VerticalAlignment="Top" Width="150" Click="RegistrationPageClick"/>
+        <Frame x:Name="AuthotizationFrame" Margin="-25,-60,-31,-56"/>
+
+    </Grid>
+</Page>
